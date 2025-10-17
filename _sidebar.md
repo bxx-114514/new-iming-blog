@@ -8,8 +8,6 @@
 <details>
 <summary><strong>【重量级】</strong></summary>
 
-<br>
-
 - [鸣潮安可酱｜关于知名鸣潮某 up 主的一些历史记录](docs/鸣潮安可酱｜关于知名鸣潮某%20up%20主的一些历史记录.md)
 - [词条「逐火之旅」被鸣系 UP 污染事件](docs/词条「逐火之旅」被污染事件.md)
 - [「逐火之旅」是什么？](docs/「逐火之旅」是什么？.md)
@@ -22,16 +20,12 @@
 <details>
 <summary><strong>【盒武器】</strong></summary>
 
-<br>
-
 - [请停止违法行为](docs/请停止违法行为.md)
 
 </details>
 
 <details>
 <summary><strong>【偷窃、盗用、倒打一耙】</strong></summary>
-
-<br>
 
 - [尘白深陷偷皮肤风波？自导自演还是确有其事？](docs/尘白深陷偷皮肤风波？自导自演还是确有其事？.md)
 
@@ -40,8 +34,6 @@
 <details>
 <summary><strong>【瓜】</strong></summary>
 
-<br>
-
 - [挖出来了一个大瓜](docs/挖出来了一个大瓜.md)
 - [库洛员工对蓝原哈气并拐米](docs/库洛员工对蓝原哈气并拐米.md)
 
@@ -49,8 +41,6 @@
 
 <details>
 <summary><strong>【流光忆庭 - 未分类】</strong></summary>
-
-<br>
 
   - [20250513——串子又开始了](docs/20250513%20串子又开始了.md)
   - [YugoFukt雨果 的动态 2](docs/YugoFukt雨果%20的动态%202.md)
