@@ -9,10 +9,6 @@
   <link rel="stylesheet" href="https://bxx-114514.github.io/css-style/github.css">
   <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css">
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"> -->
-  <!-- 文件夹样式 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
-  <!-- 箭头样式 -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
 </head>
 <body>
   <div id="app"></div>
@@ -23,6 +19,26 @@
       loadFooter: true,
       loadSidebar: true,
       coverpage: true,
+      'flexible-alerts': {
+        note: {
+          label: '备注'
+        },
+        tip: {
+          label: '提示'
+        },
+        warning: {
+          label: '警告'
+        },
+        important: {
+          label: '重要'
+        },
+        attention: {
+          label: '注意'
+        }
+      },
+      markdown: {
+        gfm: true,
+      },
       giscus: {
         repo: "bxx-114514/new-iming-blog",
         repoId: "R_kgDOPuEMAA",
@@ -46,8 +62,8 @@
       // },
       // 页面右侧 TOC
       toc: {
-        tocMaxLevel: 2,
-        target: "h2, h3, h4, h5, h6",
+        tocMaxLevel: 6,
+        target: "h1, h2, h3, h4, h5, h6",
       },
       // 全文搜索
       search: {
@@ -88,6 +104,9 @@
   <script src="https://unpkg.com/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-footnote/dist/docsify-footnote.min.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked-gfm-heading-id/lib/index.umd.js"></script>
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script> -->
   <!-- <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
   <!-- <script src="https://unpkg.com/docsify-gitalk@1.0.0/dist/docsify-gitalk.min.js"></script> -->
@@ -119,5 +138,6 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.1.0/dist/docsify-plugin-toc.min.js"></script>
   <!-- emoji -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="https://bxx-114514.github.io/css-style/live2d-widget/dist/autoload.js"></script>
 </body>
 </html>
